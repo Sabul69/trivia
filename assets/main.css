@@ -1,0 +1,96 @@
+/* header */
+.header{
+    height: 15vh;
+    background-color: #264653;
+}
+.header p{
+font-size: 3rem;
+font-weight: bold;
+background-color: black;
+color: white;
+border-radius: 50%;
+padding: 1.5rem 2.3rem;
+}
+.header h1{
+    color: white;
+    font-size: 3rem;
+}
+.header h3{
+    color: white;
+    font-size: 2rem;
+}
+/*Body*/
+.contenedor{
+    background-color: #2a9d8f;
+    height: 85vh;
+}
+.formulario{
+    background-color: #264653;
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+    border-radius: 2rem;
+    border: solid 1px;
+    width: 45%;
+    font-size: large;
+    padding: 4rem;
+    -webkit-box-shadow: 8px 8px 20px #264653;
+    -moz-box-shadow: 8px 8px 20px #264653;
+}
+.formulario label{
+    margin: .5rem;
+    color: white;
+}
+.formulario select{
+    margin: 1rem;
+    font-size: 1.7rem;
+    border-radius: 1rem;
+    padding: .5rem;
+}
+.formulario input[type=number]{
+    margin: 1rem;
+    font-size: 1.5rem;
+    width: 5rem;
+    border-radius: .8rem;
+    text-align: center;
+    padding: .7rem;
+}
+.formulario input[type=submit]{
+    color: white;
+    margin-top: 4rem;
+    padding: 1rem 3rem;
+    font-size: 1.8rem;
+    font-weight: bolder;
+    border-radius: 1rem;
+    border: solid 1px #000000;
+    background-color: #2a9d8f;
+}
+#categoria{
+    text-align: center;
+}
+
+/*Preguntas 
+e9c46a
+f4a261
+e76f51*/
+#form-container h4{
+    color: white;
+    margin-bottom: 4rem;
+}
+#form-container h3{
+    color: white;
+    margin: 2rem;
+}
+#form-container h2{
+    color: white;
+    margin: 2rem;
+}
+#form-container button{
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border-radius: .5rem;
+    border: none;
+}
+
+#form-container li{
+list-style: none;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trivia</title>
+    <link rel="stylesheet" href="./assets/main.css">
+    <link rel="stylesheet" href="./assets/styles_base.css">
+</head>
+<body>
+    <header class=" header flex-row-space-around">
+        <div class="logo">
+            <a href="index.html">><P>T</P></a>
+        </div>
+        <div class="width-50percent flex-row-center">
+            <h1>Trivia</h1>
+        </div>
+        <div>
+            <h3>Score:</h3> 
+        </div>
+        <div>
+            <p id="score">0</p>
+        </div>
+    </header>
+    <div class="contenedor flex-row-center" id="container">
+        <div class="formulario flex-column-space-between" id="form-container">
+            <form action="" class="flex-column-space-between" id="form">
+                <label for="questions">Numero de preguntas</label>
+                <input type="number" name="" id="questions" min="10" max="50" value="10"  required>
+                <label for="categoria">Categoria</label>
+                <select name="" id="categoria">
+                    <option value="x">Cualquiera</option>
+                </select>
+                <label for="dificultad">Dificultad</label>
+                <select name="" id="dificultad">
+                    <option value="0">Cualquiera</option>
+                    <option value="easy">Easy</option>
+                    <option value="medium">Medium</option>
+                    <option value="hard">Hard</option>
+                </select>
+                <label for="tipo">Tipo</label>
+                <select name="" id="tipo">
+                    <option value="0">Cualquiera</option>
+                    <option value="boolean">True/false</option>
+                    <option value="multiple">Multiple Choice</option>
+                </select>
+                <input type="submit" value="Empezar" id="boton">
+            </form>
+        </div>
+    </div>
+    <script src="./assets/main.js"></script> 
+</body>
+</html>
