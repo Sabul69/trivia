@@ -28,7 +28,7 @@ const categoriasUrl = async () => {
 
 const categoriasPush = url => {
 for (const key in url) {
-      r= parseInt(key) + 1;
+      r= parseInt(key) + 9;
         categoria.innerHTML+= `<option value="${r}">${url[key].name}</option>`;
     }
 }
@@ -51,7 +51,6 @@ const ApiUrl = e =>{
     } 
     if (categoria.value != "x") {
         cat = "&category=" + categoria.value 
-        console.log(cat)
     }
     if (tipo != 0) {
         tipo2 = "&type=" + tipo ;
@@ -64,7 +63,8 @@ const fetchUrl = async url =>{
     try {
     const res = await fetch(url);
     const r1 = await res.json();
-    middle(r1.results);    
+    middle(r1.results); 
+    console.log(r1);   
     } catch (error) {
         console.log(error);
     }
