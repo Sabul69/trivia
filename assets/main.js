@@ -28,7 +28,7 @@ const categoriasUrl = async () => {
 
 const categoriasPush = url => {
 for (const key in url) {
-      r= parseInt(key) + 1;
+      r= parseInt(key) + 9;
         categoria.innerHTML+= `<option value="${r}">${url[key].name}</option>`;
     }
 }
